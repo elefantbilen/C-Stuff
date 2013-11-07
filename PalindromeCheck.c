@@ -28,7 +28,7 @@ int main()
         part = strtok(NULL, ",");
     }
     printf("\n\n-------------------\n");
-
+	free(str);
     getchar();
     return 0;
 }
