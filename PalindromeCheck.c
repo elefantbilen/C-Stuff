@@ -29,7 +29,6 @@ int main()
     }
     printf("\n\n-------------------\n");
 	free(str);
-    getchar();
     return 0;
 }
 
